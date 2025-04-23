@@ -1,0 +1,13 @@
+spring:
+  security:
+    user:
+      name: user
+      password: pass
+  datasource:
+    url: jdbc:mysql://localhost:3306/spring_security_6
+    username: root
+    password: root
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
